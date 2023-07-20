@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+/* Todo Styles */
+h1 {
+    margin-bottom: 20px;
+}
+
+.todo-form {
+    margin-bottom: 20px;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.todo-item .title {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.todo-item .actions {
+    display: flex;
+}
+
+.todo-item .actions .btn {
+    margin-left: 5px;
+}
+
+.todo-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-modal .modal-content {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.todo-modal .modal-content .modal-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.todo-modal .modal-content .form-group {
+    margin-bottom: 20px;
+}
+
+.todo-modal .modal-content .btn-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.todo-modal .modal-content .btn-group .btn {
+    margin-left: 10px;
+}
+
+.alert-success {
+    margin-bottom: 20px;
+}
+
+.completed-task {
+    text-decoration: line-through; /* Apply strike-through style */
+  }
+.custom {
+      background-color: #97969A;
+  }
+.custom-text-color {
+      color: white;
+  }
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
